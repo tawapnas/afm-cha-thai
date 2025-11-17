@@ -396,7 +396,6 @@ struct QuizView: View {
             )
         }
         .onChange(of: showResults) { oldValue, newValue in
-            // When ResultsView is dismissed (showResults becomes false), dismiss QuizView
             if oldValue == true && newValue == false {
                 dismiss()
             }
@@ -423,7 +422,6 @@ struct QuizView: View {
         stopTimer()
         motionManager.stopMotionUpdates()
         
-        // Mark any remaining words as wrong
         for i in currentIndex..<words.count {
             if !correctWords.contains(translatedWords[i]) && !wrongWords.contains(translatedWords[i]) {
                 wrongWords.append(translatedWords[i])
@@ -499,6 +497,4 @@ struct ResultsView: View {
 
 #Preview {
     ContentView()
-    //    QuizView(translatedWords: ["สวัสดี"], words: ["Hello"])
-    //    ResultsView(correctWords: ["Hello"], wrongWords: ["สวัสดี"], totalWords: 2)
 }
