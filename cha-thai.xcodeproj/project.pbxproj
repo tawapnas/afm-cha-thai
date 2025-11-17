@@ -10,9 +10,22 @@
 		150074E42EC8B2BF00371A3A /* cha-thai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cha-thai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		158C76E12ECAB99E00136C1F /* Exceptions for "cha-thai" folder in "cha-thai" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 150074E32EC8B2BF00371A3A /* cha-thai */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		150074E62EC8B2BF00371A3A /* cha-thai */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				158C76E12ECAB99E00136C1F /* Exceptions for "cha-thai" folder in "cha-thai" target */,
+			);
 			path = "cha-thai";
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,7 @@
 				DEVELOPMENT_TEAM = 8JV6WJXYQU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cha-thai/Info.plist";
 				INFOPLIST_KEY_NSMotionUsageDescription = "This app uses motion data to function the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -289,6 +303,7 @@
 				DEVELOPMENT_TEAM = 8JV6WJXYQU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cha-thai/Info.plist";
 				INFOPLIST_KEY_NSMotionUsageDescription = "This app uses motion data to function the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
