@@ -103,6 +103,7 @@ struct ContentView: View {
                                         Task {
                                             isLoading = true
                                             keywords = []
+                                            translated = []
                                             
                                             let result1 = try! await classifyImage(image)
                                             
